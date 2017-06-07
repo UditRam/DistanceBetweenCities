@@ -1,0 +1,47 @@
+body{
+    background: url('back.jpg') center center fixed;
+    background-size: cover;
+    color: dimgray;
+    font-family: sans-serif;
+}
+
+.jumbotron{
+    background-color: rgba(238, 238, 238, 0.59);
+}
+
+.jumbotron h1{
+    letter-spacing: 2px;
+}
+
+.jumbotron h1, .jumbotron p{
+    text-align: center;
+}
+
+#map{
+    width: 60%;
+    height: 300px;
+    margin: 10px auto;
+}
+
+#output{
+    width: 60%;
+    height: 200px;
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.back{
+    background-color: rgba(238, 238, 238, 0.59);
+    border-radius: 2px;
+}
+
+.alert{
+    width: 60%;
+    height: 200px;
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
